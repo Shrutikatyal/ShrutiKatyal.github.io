@@ -17,7 +17,8 @@
             <audio id="bday" src="asset/bday.mp3"></audio>
         </a-assets>
 
-        <a-marker-camera preset="pattern-2" type="pattern" url="asset/pattern-2.patt">
+        <a-marker-camera preset="custom" type="pattern" url="asset/pattern-2.patt">
+            
             <a-obj-model src="#cake-obj" mtl="#cake-mtl" rotation="60 20 -155" scale="1 0.5 1"></a-obj-model>            
             
             <a-entity rotation="-90 0 0">
@@ -43,6 +44,7 @@
                 </a-entity>
             </a-entity>
 
+            <!-- add a simple camera --> <a-entity camera></a-entity>
         </a-marker-camera>
     </a-scene>
 </body>
